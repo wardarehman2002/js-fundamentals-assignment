@@ -17,7 +17,7 @@ function addToCart(cart, item) {
   const myCart = ['milk', 'eggs'];
   const updatedCart = addToCart(myCart, 'bread');
   console.log('addToCart result:', updatedCart); // ['milk', 'eggs', 'bread']
-  console.log('original cart:',   myCart);       // ['milk', 'eggs'] ✅ unchanged
+  console.log('original cart:',   myCart);       // ['milk', 'eggs']  unchanged
   
   
   // ---- Function 2: updateUserAge ----
@@ -31,7 +31,7 @@ function addToCart(cart, item) {
   const originalUser = { name: 'Ali', age: 25 };
   const updatedUser = updateUserAge(originalUser, 26);
   console.log('updateUserAge result:', updatedUser);   // { name: 'Ali', age: 26 }
-  console.log('original user age:', originalUser.age); // 25 ✅ unchanged
+  console.log('original user age:', originalUser.age); // 25  unchanged
   
   
   // ---- Function 3: incrementScore ----
@@ -48,7 +48,7 @@ function addToCart(cart, item) {
   const originalScores = { Ali: 5, Sara: 3 };
   const updatedScores = incrementScore(originalScores, 'Ali');
   console.log('incrementScore result:', updatedScores);    // { Ali: 6, Sara: 3 }
-  console.log('original Ali score:', originalScores.Ali);  // 5 ✅ unchanged
+  console.log('original Ali score:', originalScores.Ali);  // 5  unchanged
   
   
   // ---- Function 4: reverseString ----
@@ -66,7 +66,7 @@ function addToCart(cart, item) {
   const word = 'hello';
   const reversed = reverseString(word);
   console.log('reverseString result:', reversed); // 'olleh'
-  console.log('original string:', word);          // 'hello' ✅ (strings are always safe — immutable)
+  console.log('original string:', word);          // 'hello'  (strings are always safe — immutable)
   
   
   // ---- Function 5: removeItem ----
@@ -83,14 +83,14 @@ function addToCart(cart, item) {
   const numbers = [1, 2, 3, 4];
   const withoutSecond = removeItem(numbers, 1); // remove index 1 (value: 2)
   console.log('removeItem result:', withoutSecond); // [1, 3, 4]
-  console.log('original array:', numbers);          // [1, 2, 3, 4] ✅ unchanged
+  console.log('original array:', numbers);          // [1, 2, 3, 4]  unchanged
   
   
   // ============================================================
   // SUMMARY — Why these are "pure"
   // ============================================================
-  // ✅ addToCart     — uses spread [...arr] to create new array
-  // ✅ updateUserAge — uses spread {...obj} to create new object
-  // ✅ incrementScore — uses spread + computed key for new object
-  // ✅ reverseString — strings are primitive and immutable by design
-  // ✅ removeItem    — uses slice() which returns new arrays, never mutates
+  //  addToCart     — uses spread [...arr] to create new array
+  //  updateUserAge — uses spread {...obj} to create new object
+  //  incrementScore — uses spread + computed key for new object
+  //  reverseString — strings are primitive and immutable by design
+  //  removeItem    — uses slice() which returns new arrays, never mutates
