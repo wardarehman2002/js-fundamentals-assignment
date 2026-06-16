@@ -297,8 +297,97 @@ console.log(validateAge('hi')); // 'Error: age must be a number'
 ---
 
 
-section B
- <img width="659" height="245" alt="b1 js" src="https://github.com/user-attachments/assets/a38fa7de-a862-41ef-991e-15ef669e7e9a" />
+Section B:  Screenshots of output 
+
+B1  Predict the output AND explain why — then fix all the bugs. 
+
+
+<img width="659" height="245" alt="b1 js" src="https://github.com/user-attachments/assets/7c805e7d-c10a-4d13-89b3-03dfdf403971" />
+
+
+
+B2  Write a function typeAnalyser(value) that accepts any value and returns a detailed report.
+
+
+<img width="489" height="287" alt="b2 js" src="https://github.com/user-attachments/assets/9f25674c-fd83-41f9-b524-7364cbdeedf1" />
+
+<img width="206" height="308" alt="p2" src="https://github.com/user-attachments/assets/a244c6cc-060c-48a4-8503-e5007da12bfb" />
+
+<img width="238" height="310" alt="p3" src="https://github.com/user-attachments/assets/1183e73c-5cd3-492d-b207-f8a27b1b4610" />
+
+<img width="206" height="311" alt="p4" src="https://github.com/user-attachments/assets/f814dc83-a091-49a8-ac2d-e1c63440a1af" />
+
+
+
+B3  Write a function calculateDiscount(price, userType, isMember) that returns the final price after discount.
+
+
+<img width="121" height="136" alt="b3 js" src="https://github.com/user-attachments/assets/6edea375-7406-4810-b8b3-84c49c04dd74" />
+
+
+
+B4  Identify the bugs caused by pass-by-reference and shallow copy — then fix each one correctly.
+
+
+<img width="472" height="172" alt="b4 js" src="https://github.com/user-attachments/assets/f7f4630c-80bd-4855-8e1e-220bbff6f845" />
+
+
+
+B5  Build a pure function library — functions that never mutate inputs.
+
+
+<img width="345" height="169" alt="b5 js" src="https://github.com/user-attachments/assets/712cc2f8-80a5-4d93-a9d5-8b7981048b66" />
+
+
+
+Section C:  Scenario-Based Problem Solving
+
+C1  E-Commerce Product Manager — Shopping Cart System
+
+
+<img width="247" height="247" alt="c1 js" src="https://github.com/user-attachments/assets/0b3db524-1df7-4e1e-a0e7-038cb049fe41" />
+
+<img width="268" height="110" alt="c1p2" src="https://github.com/user-attachments/assets/9b05593d-8604-440d-9757-7537837a7f09" />
+
+
+
+C2  User Registration System — Validation Engine
+
+
+<img width="434" height="192" alt="c2 js" src="https://github.com/user-attachments/assets/45e07094-c01b-4b4f-92a0-be9d0c39ec17" />
+
+<img width="343" height="200" alt="c2p2" src="https://github.com/user-attachments/assets/fe457086-1553-4acb-9c47-98bb65ac61d1" />
+
+<img width="437" height="258" alt="c2p3" src="https://github.com/user-attachments/assets/be9aa91d-56a1-4270-a115-287f53c2d1a2" />
+
+<img width="425" height="265" alt="c2p4" src="https://github.com/user-attachments/assets/e5da61e9-4e51-4ff9-b2fc-164ee28dc217" />
+
+<img width="276" height="60" alt="c2p5" src="https://github.com/user-attachments/assets/7559a0b6-627c-425f-adba-1d4b6c5285a2" />
+
+
+
+C3  Student Grade Management System — Report Generator
+
+
+<img width="294" height="290" alt="c3 js" src="https://github.com/user-attachments/assets/c7ede8de-8c74-4427-ac24-400fc8cd4b8f" />
+
+<img width="193" height="310" alt="c3p2" src="https://github.com/user-attachments/assets/653c411f-cd10-4f64-8c78-b211a7698d28" />
+
+<img width="293" height="310" alt="c3p3" src="https://github.com/user-attachments/assets/1a58beb3-0a16-429e-8509-a6abc121a9b7" />
+
+<img width="182" height="310" alt="c3p4" src="https://github.com/user-attachments/assets/cd97356b-d6e8-44d4-9e43-4cd033befa28" />
+
+<img width="172" height="239" alt="c3p5" src="https://github.com/user-attachments/assets/6da18b2d-e432-4745-a55e-e7825af09061" />
+
+<img width="183" height="266" alt="c3p6" src="https://github.com/user-attachments/assets/e68ceb78-99cb-47b3-bd38-ee4e150eb2f1" />
+
+<img width="447" height="268" alt="c3p7" src="https://github.com/user-attachments/assets/1a132593-305c-407f-8768-1f1a52f762b4" />
+
+<img width="182" height="110" alt="c3p8" src="https://github.com/user-attachments/assets/a7c3e198-887c-4983-b3c3-15c2ef344a67" />
+
+
+
+
 
 
 
