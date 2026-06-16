@@ -27,9 +27,9 @@ const cart2Fixed = {
 
 cart2Fixed.items.push('Node Book');
 console.log('Bug 1 Fix — cart1 items:', cart1Fixed.items);
-// ['JS Book', 'React Book'] ✅ original untouched
+// ['JS Book', 'React Book']  original untouched
 console.log('Bug 1 Fix — cart2 items:', cart2Fixed.items);
-// ['JS Book', 'React Book', 'Node Book'] ✅ only cart2 changed
+// ['JS Book', 'React Book', 'Node Book']  only cart2 changed
 
 // Alternative fix using structuredClone (deep copy):
 const cart2DeepCopy = structuredClone(cart1Fixed);
@@ -61,8 +61,8 @@ function applyTaxFixed(order) {
 const myOrderFixed = { id: 1, total: 100 };
 const taxedOrderFixed = applyTaxFixed(myOrderFixed);
 
-console.log('Bug 2 Fix — original total:', myOrderFixed.total);   // 100 ✅ unchanged
-console.log('Bug 2 Fix — taxed total:',   taxedOrderFixed.total); // 117 ✅ new object
+console.log('Bug 2 Fix — original total:', myOrderFixed.total);   // 100  unchanged
+console.log('Bug 2 Fix — taxed total:',   taxedOrderFixed.total); // 117  new object
 
 
 // ============================================================
@@ -97,5 +97,5 @@ function resetConfigFixed(config) {
 let appConfigFixed = { theme: 'light', lang: 'ur', nested: { fontSize: 20 } };
 appConfigFixed = resetConfigFixed(appConfigFixed); // must reassign outside
 
-console.log('Bug 3 Fix — theme:', appConfigFixed.theme);                   // 'dark' ✅
-console.log('Bug 3 Fix — fontSize:', appConfigFixed.nested.fontSize);      // 14 ✅
+console.log('Bug 3 Fix — theme:', appConfigFixed.theme);                   // 'dark' 
+console.log('Bug 3 Fix — fontSize:', appConfigFixed.nested.fontSize);      // 14 
