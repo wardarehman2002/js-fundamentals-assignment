@@ -297,4 +297,9 @@ console.log(validateAge('hi')); // 'Error: age must be a number'
 ---
 
 
+section B
+ <img width="659" height="245" alt="b1 js" src="https://github.com/user-attachments/assets/a38fa7de-a862-41ef-991e-15ef669e7e9a" />
+
+
+
 
