@@ -72,4 +72,4 @@ const frozenUser = Object.freeze({ name: 'Asad' });
 frozenUser.name = 'Ali'; // silently fails (no error in non-strict mode)
 console.log(frozenUser.name); // still 'Asad'
 
-c:\Users\Administrator\Pictures\b1.js.jpg
+
