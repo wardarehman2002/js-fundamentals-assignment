@@ -296,13 +296,5 @@ console.log(validateAge('hi')); // 'Error: age must be a number'
 
 ---
 
-## Section C — Approach Explanations
 
-### C1 — Shopping Cart System
-The junior developer used `var cartB = cartA` which copies the **reference**, not the data. Both variables point to the same object in memory. Fix: use `structuredClone()` for deep copy. The `applyPromo` function mutates the original cart — fix by returning a new object with spread operator.
 
-### C2 — User Registration Validator
-Built a pure `validateUser` function using guard clauses and an errors array. Age coercion uses `Number()` and `isNaN()` to handle string inputs like `'25'` (valid) vs `'17abc'` (invalid). Role defaults to `'user'` using the nullish coalescing operator `??`.
-
-### C3 — Student Grade Management
-Used `map()` to generate a new report array without mutating the original `students` array. `getAverage()` filters out nulls and coerces strings using `Number()`. All functions are pure with no side effects.
